@@ -17,4 +17,4 @@ var sumZero = function (n) {
   
   
   
-  console.log(sumZero(6))
+  console.log(sumZero(98))
