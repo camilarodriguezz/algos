@@ -25,7 +25,7 @@ function kapercorn(num) {
     if (sub == 6174) {
         return 1
     }
-    counter = 1 + kapercorn(sub)
+    let counter = 1 + kapercorn(sub)
     return counter
 }
 
