@@ -24,3 +24,12 @@ function isPalindrome(str) {
 }
 
 console.log(isPalindrome('aba'))
+
+function doSomething(){}
+console.log( doSomething.prototype );
+//  It does not matter how you declare the function, a
+//  function in JavaScript will always have a default
+//  prototype property.
+//  (Ps: There is one exception that arrow function doesn't have a default prototype property)
+var doSomething = function(){};
+console.log( doSomething.prototype );
